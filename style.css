@@ -2,25 +2,53 @@ body{
   background-color: black
 }
 header{
-  background-color: #0F0F0E
+  background-color: #A64E17
 }
 
-.titulo{font-size: 100px; color: #C7C7C7; text-align: center;margin-top: -7%}
+.titulo{font-size: 100px; color: black; text-align: center;margin-top: -7%}
+.titulo2{font-size: 65px; color: black; text-align: center;margin-top: 0%}
 
 h1{
-  font-family: inherit; text-align: center; color:white; border: 10px solid #C9460E;
+  font-family: inherit; text-align: center; color:white; border: 10px solid #EDD72B;
 }
 
 p{
-  font-family: monospace; font-size: 30px; color: white; text-align: center; border: 10px solid #C7B704;
+  font-family: monospace; font-size: 30px; color: white; text-align: center; border: 10px solid #EDD72B;
 }
 
-ul {
-  top: 200px;
-font-size: 30px;
+nav li{
+  display: inline-block;
+  margin: 0 0 0 230px;
+  text-transform: uppercase;
+  border: 3px solid #EDD72B;
+}
+
+nav a:hover{
+  color: #EDD72B;
+  text-decoration: underline;
 }
 
 .logo{
-width: 15%;
+width: 20%;
 margin-left: 0%;
+}
+
+.contato{font-family: cursive; background-color: #542509; color: #FFFFFF ; font-size: 30px; text-align: center;}
+
+img{
+  width: 100%;
+  margin-left: 0%;
+}
+
+h2{
+  font-family: monospace; font-size: 30px; color: white; text-align: center; border: 10px solid #EDD72B;
+}
+
+h3{
+  font-family: monospace; font-size: 30px; color: white; text-align: center; border: 10px solid #EDD72B;
+}
+
+.imagens{
+  width: 65%;
+  margin-right: 70%;
 }
